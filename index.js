@@ -4,9 +4,9 @@ $(function(){
       
       event.preventDefault();
       
-      const newItem = $('#js-shopping-list-form').val();
+      const newItem = $('#js-shopping-list-entry').val();
       
-      $('#js-shopping-list-form').val('');
+      $('#js-shopping-list-entry').val('');
       
       $('.shopping-list').append(
           `<li>
